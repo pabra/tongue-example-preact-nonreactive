@@ -1,0 +1,13 @@
+fieldset {
+  button {
+    margin-left: 3px;
+
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+}
+
+.small {
+  font-size: small;
+}
