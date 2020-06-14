@@ -6,10 +6,10 @@ import { languages, t, translate, useLangStore } from './translate';
 import { flags } from './utils';
 
 const titles = {
-  en: translate('en', 'english'),
-  de: translate('de', 'german'),
-  es: translate('es', 'spanish'),
-  fr: translate('fr', 'french'),
+  en: translate('en', 'lang-en'),
+  de: translate('de', 'lang-de'),
+  es: translate('es', 'lang-es'),
+  fr: translate('fr', 'lang-fr'),
 } as const;
 
 const SetLanguage: FunctionalComponent = () => {

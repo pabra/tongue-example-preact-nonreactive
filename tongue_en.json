@@ -1,9 +1,9 @@
 {
-  "english": "english",
-  "german": "german",
-  "spanish": "spanish",
-  "french": "french",
-  "hello world": "Hello World",
+  "describe-App": "The App component will be re-rendered whenever the language changes. Thus all child components will re-render and use the new language.",
   "describe-SetLanguage": "By changing the language in this component, the App component will re-render and thus this component will also be re-rendered und then use the new language.",
-  "describe-App": "The App component will be re-rendered whenever the language changes. Thus all child components will re-render and use the new language."
+  "hello world": "Hello World",
+  "lang-de": "german",
+  "lang-en": "english",
+  "lang-es": "spanish",
+  "lang-fr": "french"
 }

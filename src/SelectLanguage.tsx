@@ -12,10 +12,10 @@ import {
 import { flags, isInArray } from './utils';
 
 const titles = {
-  en: `${t('english')} (${translate('en', 'english')})`,
-  de: `${t('german')} (${translate('de', 'german')})`,
-  es: `${t('spanish')} (${translate('es', 'spanish')})`,
-  fr: `${t('french')} (${translate('fr', 'french')})`,
+  en: `${t('lang-en')} (${translate('en', 'lang-en')})`,
+  de: `${t('lang-de')} (${translate('de', 'lang-de')})`,
+  es: `${t('lang-es')} (${translate('es', 'lang-es')})`,
+  fr: `${t('lang-fr')} (${translate('fr', 'lang-fr')})`,
 } as const;
 
 const SelectLanguage: FunctionalComponent = () => {

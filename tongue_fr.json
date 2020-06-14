@@ -1,9 +1,9 @@
 {
-  "english": "anglais",
-  "german": "allemand",
-  "spanish": "espagnol",
-  "french": "français",
-  "hello world": "Bonjour le monde",
+  "describe-App": "Le composant App sera rendu à chaque fois que la langue change. Ainsi, tous les composants enfants seront restitués et utiliseront le nouveau langage.",
   "describe-SetLanguage": "En changeant la langue dans ce composant, le composant App sera rendu de nouveau et donc ce composant sera également rendu de nouveau et ensuite utiliser la nouvelle langue.",
-  "describe-App": "Le composant App sera rendu à chaque fois que la langue change. Ainsi, tous les composants enfants seront restitués et utiliseront le nouveau langage."
+  "hello world": "Bonjour le monde",
+  "lang-de": "allemand",
+  "lang-en": "anglais",
+  "lang-es": "espagnol",
+  "lang-fr": "français"
 }

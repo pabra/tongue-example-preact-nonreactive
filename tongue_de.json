@@ -1,9 +1,9 @@
 {
-  "english": "englisch",
-  "german": "deutsch",
-  "spanish": "spanisch",
-  "french": "französisch",
-  "hello world": "Hallo Welt",
+  "describe-App": "Die App-Komponente wird neu gerendert, wenn sich die Sprache ändert. Somit werden alle untergeordneten Komponenten neu gerendert und die neue Sprache verwendet.",
   "describe-SetLanguage": "Durch Ändern der Sprache in dieser Komponente wird die App-Komponente neu gerendert und somit wird diese Komponente auch neu gerendert und verwendet dann die neue Sprache.",
-  "describe-App": "Die App-Komponente wird neu gerendert, wenn sich die Sprache ändert. Somit werden alle untergeordneten Komponenten neu gerendert und die neue Sprache verwendet."
+  "hello world": "Hallo Welt",
+  "lang-de": "deutsch",
+  "lang-en": "englisch",
+  "lang-es": "spanisch",
+  "lang-fr": "französisch"
 }

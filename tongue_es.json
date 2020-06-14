@@ -1,9 +1,9 @@
 {
-  "english": "inglés",
-  "german": "alemán",
-  "spanish": "español",
-  "french": "francés",
-  "hello world": "Hola Mundo",
+  "describe-App": "El componente de la aplicación se volverá a reproducir cada vez que cambie el idioma. Por lo tanto, todos los componentes secundarios se volverán a procesar y usarán el nuevo lenguaje.",
   "describe-SetLanguage": "Al cambiar el idioma en este componente, el componente de la aplicación se volverá a procesar y, por lo tanto, este componente también se volverá a procesar y luego usará el nuevo idioma.",
-  "describe-App": "El componente de la aplicación se volverá a reproducir cada vez que cambie el idioma. Por lo tanto, todos los componentes secundarios se volverán a procesar y usarán el nuevo lenguaje."
+  "hello world": "Hola Mundo",
+  "lang-de": "alemán",
+  "lang-en": "inglés",
+  "lang-es": "español",
+  "lang-fr": "francés"
 }
