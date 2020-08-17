@@ -1,6 +1,6 @@
 const path = require('path');
 const webpack = require('webpack');
-const merge = require('webpack-merge');
+const { merge } = require('webpack-merge');
 
 const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin');
 const HTMLWebpackPlugin = require('html-webpack-plugin');
@@ -127,7 +127,7 @@ if (mode === 'development') {
       // Prevents compilation errors causing the hot loader to lose state
       new webpack.NoEmitOnErrorsPlugin(),
       new ForkTsCheckerWebpackPlugin({
-        eslint: true,
+        eslint: { enabled: true, files: './src/*{.ts,.js,.tsx,.jsx}' },
       }),
     ],
   });
@@ -139,8 +139,6 @@ if (mode === 'production') {
     plugins: [
       new ForkTsCheckerWebpackPlugin({
         async: false,
-        useTypescriptIncrementalApi: true,
-        memoryLimit: 4096,
       }),
     ],
   });
